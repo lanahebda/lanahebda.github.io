@@ -180,7 +180,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The first time the Braves won a World Series was in 1914. Forty-three years later, in 1957 they won another and 38 years later again in 1995. It only took another 26 years for them to claim their most recent champion title in 2021 finishing with an 88-73 record.</p>
 <p>Their best record took place in 1998 with 106 wins and 56 losses. With their ups and downs throughout the seasons the closest they have come to having another season like their 1998 one, was in 2023 when they finished with a 104-58 record. During 2022 they weren’t too far off either with a 101-61 record.</p>
 <p>Judging by their last few seasons, even with their not so good 2021 season record, they have been able to see success. So, where do they stand with the rest of the leagues.</p>
-<p>Again, there is so much to look at when it comes to statistics, so deciding just comes down to personal preference and what I like to see when I’m watching a game. So, the charts below are going to show the home run percentage, hard hit percentage, ERA, and the range factor per game.</p>
+<p>Again, there is so much to look at when it comes to statistics, so deciding just comes down to personal preference and what I like to see when I’m watching a game. So, the charts below are going to show the home run percentage, hard hit rate, ERA, and the range factor per game.</p>
 <p>If you’re like me, hitting home runs is one of the more fun things to watch when players bat; following closely behind are triples. There’s nothing like watching it get hit out of the park and seeing everyone go wild.</p>
 <p>With the Braves leading the leagues in home runs,307, it comes at no surprise that five of the Brave players claim spots in the top 22 for home run percentage. Matt Olson and Marcell Ozuna find themselves in the top five hitting with a 7.5% and a 6.8%.</p>
 <p>Of the top 22 players, seven are from the National League, not including the Braves. Only one other team has more than one player on the list: the Los Angeles Dodgers.</p>
@@ -214,7 +214,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">labs</span>(</span>
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">""</span>, </span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"ERA"</span>, </span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"Home Run Percentage"</span>, </span>
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"Braves Claim Five of the Top 20 spots in Homeruns"</span>, </span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Athletes redefine the game with high percentage of bombs being hit at home plate."</span>, </span>
 <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: Baseball Reference | By: Lana Hebda"</span></span>
@@ -283,7 +283,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>    <span class="at">data=</span>ATLlabel,</span>
 <span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x=</span><span class="st">`</span><span class="at">HardH%</span><span class="st">`</span>, <span class="at">y=</span>Tm, <span class="at">label=</span>Name)) <span class="sc">+</span></span>
 <span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">"Hard Hit Percentage"</span>, </span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">"Hard Hit Rate"</span>, </span>
 <span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">""</span>, </span>
 <span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"From Swing to Impact"</span>, </span>
 <span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Braves excel above average when it comes to strength and hitting the ball."</span>, </span>
